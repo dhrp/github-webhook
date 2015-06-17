@@ -12,6 +12,16 @@ I normally set it up as a subdomain under a domain I own and update the web serv
 
 Next, you'll need to edit config-sample.php and then save as/rename to config.php.
 
+Docker
+------
+
+If you prefer you can also run this as a Docker container. Simply run:
+
+    docker build -t <yourname/repo> .
+    docker run -d -P <yourname/repo>
+
+And it should work! You'll have this running on Apache, exposed on some port on your host.
+
 
 License
 -------
